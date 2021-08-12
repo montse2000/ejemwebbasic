@@ -1,0 +1,132 @@
+/*index.html*/
+
+
+
+main{
+}
+
+.section-padding{
+	padding: 22px;
+}
+
+/*Presentacion*/
+
+
+.presentacion__texto{
+	font-size: 24px;
+	padding: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.presentacion__texto h1{
+	margin-bottom: 20px;
+}
+
+.presentacion__texto p{
+	font-size: 0.7em;
+}
+
+
+.presentacion__imagen {
+	width: 100%;
+	display: inline-block;
+}
+
+/*Clip path*/
+.presentacion__imagen img{
+	width: 100%;
+	background-color: #FFE194;
+	clip-path: circle(40% at 50% 50%);
+}
+
+/*Historia*/
+
+.historia{
+	margin-top: 4%;
+}
+
+.historia__item{
+	background-color: #dacdfb;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 17px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.historia__item--important{
+	background-color: #dacdfb;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 17px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+
+.historia__item:hover, .historia__item--important:hover{
+background-color: #FFE194;
+}
+
+/*Paisaje*/
+.paisaje__imagen{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+}
+
+.paisaje__imagen img{
+width: 100%;
+border-radius: 17px;
+opacity: 0.6;
+
+}
+
+
+/*********************/
+/*Media Queries*/
+@media only screen and (min-width: 992px) {
+
+	/*Presentacion*/
+	.presentacion__texto{
+		width: 50%;
+		position: relative;
+		bottom: 80px;
+		font-size: 26px;
+	}
+
+	.presentacion__imagen{
+		width: 40%;
+		display: inline-block;
+	}
+
+	/*Historia*/
+	.historia__item, .historia__item--important{
+		width: 24%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
